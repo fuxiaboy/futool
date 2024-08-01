@@ -1,0 +1,30 @@
+{
+	"name": "futool",
+	"version": "1.0.0",
+	"description": "A collection of utility functions",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fuxiaboy/futool.git"
+	},
+	"keywords": [
+		"futool",
+		"utility",
+		"tools",
+		"javascript",
+		"typescript"
+	],
+	"author": "fuxia",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.4",
+		"tsc": "^2.0.4"
+	}
+}
